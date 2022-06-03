@@ -96,3 +96,16 @@ section {
         overflow-x: auto;
     }
 }
+
+@media only screen and (min-device-width: 480px) 
+                   and (max-device-width: 640px) 
+                   and (orientation: landscape) {
+                navbar {
+                    position: fixed;
+                    min-width: 290px;
+                    top: 0px;
+                    left: 0px;
+                    width: 100px;
+                    height: 100%;
+}
+                   }
